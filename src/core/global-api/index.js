@@ -9,7 +9,7 @@ import { set, del } from '../observer/index'
 import { ASSET_TYPES } from 'shared/constants'
 import builtInComponents from '../components/index'
 
-import {
+import
   warn,
   extend,
   nextTick,
