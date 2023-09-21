@@ -69,7 +69,7 @@ export function parseModel(val: string): Object {
   index = expressionPos = expressionEndPos = 0
 
   if (val.indexOf('[') < 0 || val.lastIndexOf(']') < len - 1) {
-    return {
+    return
       exp: val,
       idx: null,
     }
