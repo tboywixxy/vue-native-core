@@ -3,9 +3,9 @@
 import { parse } from './parser/index'
 import { optimize } from './optimizer'
 import { generate } from './codegen/index'
-import { detectErrors } from './error-detector'
+import detectErrors from './error-detector'
 import { extend, noop } from 'shared/util'
-import { warn, tip } from 'core/util/debug'
+import warn, tip from 'core/util/debug'
 
 function baseCompile(
   template: string,
