@@ -2,7 +2,7 @@
 
 import config from 'core/config'
 import { addHandler, addAttr, getBindingAttr } from 'compiler/helpers'
-import { genAssignmentCode } from 'compiler/directives/model'
+import genAssignmentCode from 'compiler/directives/model'
 import { COMMON, WEB } from '../config'
 
 // in some cases, the event used has to be determined at runtime
